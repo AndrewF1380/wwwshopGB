@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.contaner{
+border: solid 1px;
+width: 1140px;
+margin: 0  auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+
+a.logo1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   
+}
+.logo2{
+   
+    height: 19px;
+    color: #222222;   
+    font-family: lato;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal; 
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 13px;
+   
+}
+.logo2 span{
+    color: #f16d7f;
+    font-family: Lato;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0.68px;
+    line-height: normal;
+}
+
+.red__txt{
+    color: #f16d7f;
+    font-family: Lato;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0.68px;
+    line-height: normal;
+}
+.button{
+    display: flex;
+    align-items: center;
+    font-family:;
+    width: 87px;
+    height: 38px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    margin-left: 37px;
+}
+.button__text{
+    margin-left: 15px;
+}
+.button__img{
+    margin-left: 8px; 
+
+}
+.serch__form{
+    display: flex;
+    align-items: center;
+}
+.serch__input{
+    width: 280px;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.serch_button{
+    width: 39px;
+    height: 39px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}  
+
+.myAcc_bt{
+    box-sizing: border-box;
+    width: 130px;
+    height: 38px;
+    background-color: #f16d7f;
+    text-align: center;
+    padding-top: 9px;
+ color: #ffffff;
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 32px;
+/* Text style for "M, y Accou" */
+font-style: normal;
+letter-spacing: 0.38px;
+line-height: normal;
+margin-left: 26px;
+}
+
+.navi__pozition{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    list-style-type:none
+}
+.navi__pozition a{
+    text-decoration: none;
+    width: 680px;
+    height: 10px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "H, ome" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+}
+.banner-bg{
+    margin-top: 22px;
+    background-color: #e8e8e8;
+    height: 614px;
+}
+.baner-img {
+    background-image: url(img/index_banner.svg)  ;
+    height: 614px;
+    background-position-y: bottom;
+    display: flex;
+}
+.red_block{
+    width: 12px;
+    height: 92px;
+    background-color: #f16d7f;
+    margin-right: 19px;
+}
+.baner_text__plase{
+    display: flex;
+    height: px;
+    width: px;
+    align-items: center;
+}
+.first_st{
+    /* Style for "THE BRAND" */
+
+    width: 485px;
+  
+    color: #222222;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    
+    text-transform: uppercase;
+}
+.second_st{
+    color: #222222;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    
+    text-transform: uppercase;
+}
+.main__cats{
+    margin-top: 98px;
+}
+  .cats{
+      display: flex;
+      justify-content: space-between;
+  }
+.cats_r{
+    display: flex;
+    flex-direction: column;
+}
+
+.cats_l{
+    display: flex;
+    flex-direction: column;
+}
+.men__card{
+    position: relative;
+}
+.accs__card{
+    display: flex;
+    margin-top: 20px;
+    width: 560px;
+    height: 261px;
+    background-color: #dadad2;
+    position: relative;
+}
+
+.accs__card_img{
+    margin-left: 149px;
+    
+}
+.women__card{
+    position: relative;
+}
+
+.kids__card{
+    margin-top: 20px;
+    height: 542px;
+    position: relative;
+}
+.card_name{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 175px;
+    height: 82px;
+    background-color: #ffffff;
+    top: 26px;
+
+    color: #222222;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "hOT dEAL" */
+    font-style: normal;
+    letter-spacing: 0.45px;
+    line-height: normal;
+}
+.card_name2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 220px;
+    height: 82px;
+    background-color: #ffffff;
+    top: 26px;
+
+    color: #222222;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "hOT dEAL" */
+    font-style: normal;
+    letter-spacing: 0.45px;
+    line-height: normal;
+}
+.card_name p {
+    margin: 16px 0 0 19px;
+    
+}
+
+.card_name2 p {
+    margin: 16px 0 0 19px;
+    
+}
+.red__txt2{
+    color: #f16d7f;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.75px;
+    line-height: normal;
+    margin-left: 19px;
+}
+.caption{}
+.g_txt{
+    text-align: center;
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 54px;
+}    
+.b_txt{
+   
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 54px;
+    text-align: center;
+    /* Text style for "Fetured It" */
+
+    font-style: normal;
+
+    letter-spacing: 0.75px;
+
+    line-height: normal;
+
+
+}
